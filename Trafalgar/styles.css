@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+/* body{
+  width: 100vw;
+} */
+
+header{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+header, main, article, section{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+header nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+ul li a{
+  text-decoration: none;
+}
+
+.nav-active{
+  font-weight: 700;
+}
+
+header a{
+  color:#1F1534;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.text-holder{
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text-holder > h1{
+  font-weight: 700;
+  font-size: 48px;
+}
+
+div.text-holder > p{
+  color: #7D7987;
+}
+
+div.text-holder > button{
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  border-radius: 55px;
+  border: none;
+  color: #ffffff;
+  background-color: #458FF6;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+div.image-holder{
+  width: 600px;
+  height: 500px;
+}
+
+main div > img{
+  width: 100%;
+  height: 100%;
+}
+
+section#our-services{
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+#our-services h1{
+  font-weight: 700;
+}
+
+#our-services p{
+  font-weight: 300;
+  color: #7D7987;
+  width: 850px;
+  text-align: center;
+}
+
+#our-services .cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cards div{
+  display: flex;
+  flex-direction: column;
+}
